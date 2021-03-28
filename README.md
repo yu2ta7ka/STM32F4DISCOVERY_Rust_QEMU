@@ -9,6 +9,7 @@ $ rustup target add thumbv7em-none-eabi
 $ cargo install cargo-binutils
 $ rustup component add llvm-tools-preview
 $ cargo add cortex-m-rt cortex-m-semihosting panic-halt
+$ cargo add embedded-hal
 ```
 
 # 参考
